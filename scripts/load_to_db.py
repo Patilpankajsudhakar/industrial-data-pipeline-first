@@ -6,7 +6,7 @@ PROCESSED_PATH = r"C:\Users\patil\OneDrive\Documents\Data Engineering\data-platf
 
 # change password accordingly
 engine = create_engine(
-    "postgresql+psycopg2://postgres:Pune%40123@localhost:5432/data_platform"
+    "postgresql+psycopg2://postgres:password@localhost:5432/data_platform"
 )
 
 def load_file(file):
