@@ -2,7 +2,7 @@ import pandas as pd
 from sqlalchemy import create_engine
 
 engine = create_engine(
-    "postgresql+psycopg2://postgres:Pune%40123@localhost:5432/data_platform"
+    "postgresql+psycopg2://postgres:Password@localhost:5432/data_platform"
 )
 
 def run_checks():
